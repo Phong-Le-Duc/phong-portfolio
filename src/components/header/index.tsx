@@ -9,7 +9,7 @@ import ThemeToggle from "@/components/theme-toggle/ThemeToggle";
 export default function Header() {
 
     return (
-        <header className="sticky top-0 z-50 bg-black/80 backdrop-blur">
+        <header className="sticky top-0 z-50">
 
 
 
@@ -40,7 +40,7 @@ export default function Header() {
 
                 </div>
 
-                <button className="md:hidden p-2" aria-label="Open menu">
+                <button className="md:hidden mr-2 " aria-label="Open menu">
                     <svg
                         className="w-8 h-8 text-white"
                         fill="none"

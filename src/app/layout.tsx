@@ -30,7 +30,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <Header />
-        <main className="mx-4 md:mx-16">{children}</main>
+        <main className="">{children}</main>
       </body>
     </html>
   );

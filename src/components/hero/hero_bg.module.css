@@ -1,0 +1,52 @@
+.coreGlow {
+    pointer-events: none;
+    position: absolute;
+    right: 140px;
+    top: 50%;
+    width: 220px;
+    height: 220px;
+    transform: translateY(-50%);
+    border-radius: 9999px;
+    background: radial-gradient(circle,
+            rgba(59, 130, 246, 0.75) 0%,
+            rgba(59, 130, 246, 0.35) 35%,
+            rgba(59, 130, 246, 0.12) 58%,
+            transparent 75%);
+    filter: blur(18px);
+}
+
+.outerHalo {
+    pointer-events: none;
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    width: 320px;
+    height: 320px;
+    transform: translateY(-50%);
+    border-radius: 9999px;
+    background: radial-gradient(circle,
+            rgba(59, 130, 246, 0.28) 0%,
+            rgba(59, 130, 246, 0.12) 45%,
+            transparent 75%);
+    filter: blur(48px);
+}
+
+@media (max-width: 580px) {
+    .coreGlow {
+        right: 50%;
+        top: auto;
+        bottom: -70px;
+        width: 170px;
+        height: 170px;
+        transform: translateX(50%);
+    }
+
+    .outerHalo {
+        right: 50%;
+        top: auto;
+        bottom: -95px;
+        width: 250px;
+        height: 250px;
+        transform: translateX(50%);
+    }
+}

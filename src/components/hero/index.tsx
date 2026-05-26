@@ -1,28 +1,61 @@
 import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
+import styles from "./hero_bg.module.css";
+
 
 export default function Hero() {
 
     return (
-        <section className="w-full">
-
-            <div className="">
-                <p className="inline-block text-sm bg-gray-900 px-2 py-1 rounded-lg text-blue-500">
-                    WEB / FRONTEND DEVELOPER
-                </p>
-                <h1>I build clean, <br /> functional web<br /> experiences<span className="text-blue-500">.</span></h1>
-                <p>I'm a developer who loves building things <br /> for the web. Here are some of my projects.</p>
-            </div>
+        <section className="relative w-full overflow-hidden ">
 
             <div>
-                <Link href="/" aria-label="View my projects" className="text-sm">
-                    View Projects <FaArrowRightLong className="inline-block w-4 h-4" />
+                {/* strong core glow */}
+                <div
+                    aria-hidden="true"
+                    className={styles.coreGlow}
+                />
+
+                {/* soft outer halo */}
+                <div
+                    aria-hidden="true"
+                    className={styles.outerHalo}
+                />
+            </div>
+
+            <div className="relative z-10 mt-12 flex flex-col gap-4 mx-8">
+                <p className="self-start text-sm max-[350px]:text-xs bg-gray-900 px-2 py-1 rounded-lg text-blue-500">
+                    WEB / FRONTEND DEVELOPER
+                </p>
+
+                <h1 className="text-4xl max-[350px]:text-3xl">
+                    I build clean, <br /> functional web<br /> experiences
+                    <span className="text-blue-500">.</span>
+                </h1>
+
+                <p className="max-[350px]:text-sm">
+                    I'm a developer who loves building things <br /> for the web. Here are some of my projects.
+                </p>
+            </div>
+
+            <div className="mt-6 mx-8 flex flex-row gap-8 max-[310px]:flex-col max-[310px]:gap-3">
+                <Link
+                    className="self-start w-fit text-sm bg-blue-700 p-2 rounded-lg"
+                    href="/"
+                    aria-label="View my projects"
+                >
+                    View Projects <FaArrowRightLong className="inline-block w-3 h-3" />
                 </Link>
 
-                <Link href="/" aria-label="View my projects" className="text-sm">
+                <Link
+                    className="self-start w-fit text-sm p-2 border-b-2 border-blue-700"
+                    href="/"
+                    aria-label="About me"
+                >
                     About me
                 </Link>
             </div>
+
+            <div className="mx-8 border-b border-gray-700 pb-8 max-[768px]:mx-0"></div>
 
         </section >
     )
