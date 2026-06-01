@@ -22,7 +22,7 @@ export default function Hero() {
                 />
             </div>
 
-            <div className="relative z-10 mt-12 flex flex-col gap-4 mx-8">
+            <div className="relative z-10 mt-12 flex flex-col gap-4 ">
                 <p className="self-start text-sm max-[350px]:text-xs bg-gray-900 px-2 py-1 rounded-lg text-blue-500">
                     WEB / FRONTEND DEVELOPER
                 </p>
@@ -37,7 +37,7 @@ export default function Hero() {
                 </p>
             </div>
 
-            <div className="mt-6 mx-8 flex flex-row gap-8 max-[310px]:flex-col max-[310px]:gap-3">
+            <div className="mt-6 flex flex-row gap-8 max-[310px]:flex-col max-[310px]:gap-3">
                 <Link
                     className="self-start w-fit text-sm bg-blue-700 p-2 rounded-lg"
                     href="/"

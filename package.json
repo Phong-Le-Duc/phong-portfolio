@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev\" \"wait-on tcp:3000 && open-cli http://localhost:3000\"",
+    "dev": "next dev",
+    "dev:open": "concurrently \"next dev\" \"wait-on tcp:3000 && open-cli http://localhost:3000\"",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -19,12 +20,9 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "concurrently": "^9.2.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
-    "open-cli": "^9.0.0",
     "tailwindcss": "^4",
-    "typescript": "^5",
-    "wait-on": "^9.0.10"
+    "typescript": "^5"
   }
 }
