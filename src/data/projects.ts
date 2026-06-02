@@ -22,7 +22,7 @@ export const projects: Project[] = [
         id: "project-2",
         title: "Fitness Mobile-Layout Web App",
         description: "Short description",
-        href: "https://https://phong-fitness.netlify.app/",
+        href: "https://phong-fitness.netlify.app/",
         tags: ["Next.js", "TypeScript"],
         imageSrc: "/images/project-placeholder.svg",
         featured: true,
