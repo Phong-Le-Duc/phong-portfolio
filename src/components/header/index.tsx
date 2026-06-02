@@ -15,7 +15,7 @@ export default function Header() {
 
 
 
-            <div className="flex justify-between items-center py-4 px-8">
+            <div className="flex justify-between items-center py-4 px-8 bg-black/80 backdrop-blur-sm">
 
                 <Link href="/" className="flex items-center" aria-label="Home">
                     <p className="text-xl font-bold" >Phong Le Duc<span className="text-blue-500">.</span></p>
@@ -53,7 +53,7 @@ export default function Header() {
                     </svg>
                 </button>
 
-            </div>
+            </div >
 
 
 
