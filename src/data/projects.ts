@@ -20,8 +20,8 @@ export const projects: Project[] = [
     },
     {
         id: "project-2",
-        title: "A fitness class booking app featuring server-rendered data fetching, type-safe form validation, JWT cookie authentication with server-side route protection, and role-based views for admins and members — built with a clean DAL pattern separating UI from API logic.",
-        description: "Short description",
+        title: "Fitness Class Mobile-Layout Booking App",
+        description: "A fitness class booking app featuring server-rendered data fetching, type-safe form validation, JWT cookie authentication with server-side route protection, and role-based views for admins and members — built with a clean DAL pattern separating UI from API logic.",
         href: "https://phong-fitness.netlify.app/",
         tags: ["Next.js", "JavaScript", "Tailwind CSS"],
         imageSrc: "/images/fitnessImage.png",
