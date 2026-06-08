@@ -39,16 +39,16 @@ export default function Hero() {
 
             <div className="mt-6 flex flex-row gap-8 max-[310px]:flex-col max-[310px]:gap-3">
                 <Link
-                    className="self-start w-fit text-sm bg-blue-700 p-2 rounded-lg"
-                    href="/"
+                    className="self-start inline-flex w-fit items-center gap-2 text-sm bg-blue-700 p-2 rounded-lg"
+                    href="/my-projects"
                     aria-label="View my projects"
                 >
-                    View Projects <FaArrowRightLong className="inline-block w-3 h-3" />
+                    View Projects <FaArrowRightLong className="h-3 w-3" />
                 </Link>
 
                 <Link
                     className="self-start w-fit text-sm p-2 border-b-2 border-blue-700"
-                    href="/"
+                    href="/about"
                     aria-label="About me"
                 >
                     About me

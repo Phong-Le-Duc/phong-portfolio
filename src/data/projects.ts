@@ -29,10 +29,10 @@ export const projects: Project[] = [
     },
     {
         id: "project-3",
-        title: "Real estate website (desktop only)",
+        title: "Real Estate Website Desktop-Layout",
         description: "A production-ready real estate web app built for speed, clean UX, and scalable frontend architecture. It delivers a complete property-search journey with dynamic listings, agent profiles, detailed property pages, validated contact forms, and a full authentication system including secure login, protected user-only routes, and favorites for signed-in users.",
         href: "https://phong-real-estate-website.netlify.app/",
-        tags: ["Next.js", "TypeScript"],
+        tags: ["Vite", "React", "TypeScript"],
         imageSrc: "/images/realEstateImage.png",
         featured: true,
     },

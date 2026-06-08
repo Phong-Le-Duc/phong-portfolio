@@ -1,12 +1,19 @@
-import Image from "next/image";
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import { IoIosSearch } from "react-icons/io";
 import { RiUser3Line } from "react-icons/ri";
 import { BsBag } from "react-icons/bs";
 import { AiOutlineFire } from "react-icons/ai";
-import ThemeToggle from "@/components/theme-toggle/ThemeToggle";
+import { HeaderThemeToggle } from "@/components/theme-toggle";
+import BurgerMenuButton from "@/components/burger-menu";
+import MobileMenuPanel from "@/components/mobile-menu-panel";
 
 export default function Header() {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleMenu = () => setIsOpen((prev) => !prev);
+    const closeMenu = () => setIsOpen(false);
 
     return (
         <header className="sticky top-0 z-50">
@@ -34,26 +41,17 @@ export default function Header() {
                         </Link>
                     </nav>
 
-                    <div className="">
-                        <ThemeToggle />
-                    </div>
+                    <HeaderThemeToggle />
 
                 </div>
 
-                <button className="md:hidden mr-2 " aria-label="Open menu">
-                    <svg
-                        className="w-8 h-8 text-white"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                        viewBox="0 0 24 24"
-                        aria-hidden="true"
-                    >
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
-                </button>
+                <BurgerMenuButton isOpen={isOpen} onToggle={toggleMenu} />
 
             </div >
+
+            <div id="mobile-menu-panel">
+                <MobileMenuPanel isOpen={isOpen} onClose={closeMenu} />
+            </div>
 
 
 
