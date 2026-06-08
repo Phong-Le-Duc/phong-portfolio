@@ -6,7 +6,7 @@ import styles from "./hero_bg.module.css";
 export default function Hero() {
 
     return (
-        <section className="relative w-full overflow-hidden ">
+        <section className="relative w-full overflow-hidden py-10 md:py-10 flex flex-col justify-center max-[768px]:-mx-4 max-[768px]:w-[calc(100%+2rem)] max-[768px]:px-4">
 
             <div>
                 {/* strong core glow */}
@@ -22,7 +22,7 @@ export default function Hero() {
                 />
             </div>
 
-            <div className="relative z-10 mt-12 flex flex-col gap-4 ">
+            <div className="relative z-10  flex flex-col gap-4 ">
                 <p className="self-start text-sm max-[350px]:text-xs bg-gray-900 px-2 py-1 rounded-lg text-blue-500">
                     WEB / FRONTEND DEVELOPER
                 </p>
@@ -55,7 +55,7 @@ export default function Hero() {
                 </Link>
             </div>
 
-            <div className="mx-8 border-b border-gray-700 pb-8 max-[768px]:mx-0"></div>
+
 
         </section >
     )

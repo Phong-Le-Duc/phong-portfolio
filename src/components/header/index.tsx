@@ -2,10 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { IoIosSearch } from "react-icons/io";
-import { RiUser3Line } from "react-icons/ri";
-import { BsBag } from "react-icons/bs";
-import { AiOutlineFire } from "react-icons/ai";
+
 import { HeaderThemeToggle } from "@/components/theme-toggle";
 import BurgerMenuButton from "@/components/burger-menu";
 import MobileMenuPanel from "@/components/mobile-menu-panel";
