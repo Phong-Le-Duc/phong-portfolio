@@ -41,7 +41,7 @@ export const projects: Project[] = [
         title: "Project One",
         description: "Short description",
         href: "https://github.com/yourname/project-one",
-        tags: ["Next.js", "TypeScript"],
+        tags: ["Vite","React", "TypeScript"],
         imageSrc: "/images/project-placeholder.svg",
         featured: true,
     },
