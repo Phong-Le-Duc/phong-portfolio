@@ -7,5 +7,5 @@
   </defs>
   <rect width="800" height="400" fill="url(#bg)"/>
   <rect x="24" y="24" width="752" height="352" rx="16" fill="none" stroke="#334155" stroke-width="2"/>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#93c5fd" font-family="Arial, sans-serif" font-size="28" letter-spacing="1">PROJECT PREVIEW</text>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#93c5fd" font-family="Arial, sans-serif" font-size="28" letter-spacing="1">PROJECT COMING SOON</text>
 </svg>
