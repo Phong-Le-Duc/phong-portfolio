@@ -29,11 +29,11 @@ export const projects: Project[] = [
     },
     {
         id: "project-3",
-        title: "Project One",
-        description: "Short description",
-        href: "https://github.com/yourname/project-one",
+        title: "Real estate website (desktop only",
+        description: "A production-ready real estate web app built for speed, clean UX, and scalable frontend architecture. It delivers a complete property-search journey with dynamic listings, agent profiles, detailed property pages, validated contact forms, and a full authentication system including secure login, protected user-only routes, and favorites for signed-in users.",
+        href: "https://phong-real-estate-website.netlify.app/",
         tags: ["Next.js", "TypeScript"],
-        imageSrc: "/images/project-placeholder.svg",
+        imageSrc: "/images/realEstateImage.png",
         featured: true,
     },
     {
