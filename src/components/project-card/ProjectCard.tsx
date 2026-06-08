@@ -24,7 +24,7 @@ export default function ProjectCard({ project }: Props) {
             </div>
 
             <h4 className="text-base font-semibold">{project.title}</h4>
-            <p className="mt-2 text-xs text-gray-300">{project.description}</p>
+            <p className="mt-2 text-sm text-gray-300">{project.description}</p>
             <p className="mt-3 text-xs text-gray-400">{project.tags.join(" • ")}</p>
         </a>
     );

@@ -23,13 +23,13 @@ export default function Header() {
 
                 <div className="hidden md:flex items-center gap-6">
                     <nav className="flex items-center gap-8 text-sm text-gray-300 [&>a]:transition-colors [&>a]:hover:text-white">
-                        <Link href="/" aria-label="My Projects">
+                        <Link href="/my-projects" aria-label="My Projects">
                             Projects
                         </Link>
-                        <Link href="/" aria-label="About">
+                        <Link href="/about" aria-label="About">
                             About
                         </Link>
-                        <Link href="/" aria-label="Contact">
+                        <Link href="/contact" aria-label="Contact">
                             Contact
                         </Link>
                     </nav>
