@@ -38,11 +38,11 @@ export const projects: Project[] = [
     },
     {
         id: "project-4",
-        title: "",
-        description: "",
-        href: "https://github.com/yourname/project-four",
-        tags: [""],
-        imageSrc: "/images/project-placeholder.svg",
+        title: "Portfolio site mobile and desktop layout",
+        description: "A personal portfolio website showcasing projects, skills, and experience with responsive design for both mobile and desktop layouts.",
+        href: "https://phongleduc-portfolio.netlify.app/",
+        tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+        imageSrc: "/images/portfolioImage.png",
         featured: true,
     },
     {
