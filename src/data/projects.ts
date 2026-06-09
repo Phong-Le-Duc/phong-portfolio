@@ -38,8 +38,8 @@ export const projects: Project[] = [
     },
     {
         id: "project-4",
-        title: "Project 4",
-        description: "Short description",
+        title: "Coming Soon",
+        description: "",
         href: "https://github.com/yourname/project-four",
         tags: [""],
         imageSrc: "/images/project-placeholder.svg",
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     },
     {
         id: "project-5",
-        title: "Project 5",
+        title: "Coming Soon",
         description: "",
         href: "",
         tags: [""],
@@ -56,7 +56,7 @@ export const projects: Project[] = [
     },
     {
         id: "project-6",
-        title: "Project 6",
+        title: "Coming Soon",
         description: "",
         href: "https://github.com/yourname/project-six",
         tags: [""],
