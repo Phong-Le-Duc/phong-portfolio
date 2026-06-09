@@ -44,7 +44,7 @@ export default function AboutPage() {
                 </p>
 
                 <details className="mt-4 max-w-3xl">
-                    <summary className="cursor-pointer text-sm leading-6 font-normal text-blue-300 md:text-base">
+                    <summary className="cursor-pointer text-sm leading-6 font-normal text-blue-500 md:text-base">
                         Read more
                     </summary>
                     <div className="mt-3 space-y-4 text-sm leading-6 text-gray-300 md:text-base">
@@ -91,12 +91,12 @@ export default function AboutPage() {
 
             <section className="mt-12 grid gap-8 lg:grid-cols-3">
                 <div className="rounded-2xl border border-gray-700 bg-white/5 p-6">
-                    <h2 className="text-xl font-semibold text-white">Technologies</h2>
+                    <h2 className="text-xl font-semibold text-foreground">Technologies</h2>
                     <div className="mt-4 flex flex-wrap gap-2">
                         {technologies.map((technology) => (
                             <span
                                 key={technology}
-                                className="rounded-full border border-gray-700 bg-black/30 px-3 py-1 text-xs text-gray-300"
+                                className="rounded-full border border-blue-500 bg-blue-500/10 px-3 py-1 text-xs text-blue-500"
                             >
                                 {technology}
                             </span>
@@ -105,12 +105,12 @@ export default function AboutPage() {
                 </div>
 
                 <div className="rounded-2xl border border-gray-700 bg-white/5 p-6">
-                    <h2 className="text-xl font-semibold text-white">Technologies in progress</h2>
+                    <h2 className="text-xl font-semibold text-foreground">Technologies in progress</h2>
                     <div className="mt-4 flex flex-wrap gap-2">
                         {technologiesInProgress.map((technology) => (
                             <span
                                 key={technology}
-                                className="rounded-full border border-blue-500/50 bg-blue-500/10 px-3 py-1 text-xs text-blue-200"
+                                className="rounded-full border border-blue-500 bg-blue-500/10 px-3 py-1 text-xs text-blue-500"
                             >
                                 {technology}
                             </span>
@@ -119,7 +119,7 @@ export default function AboutPage() {
                 </div>
 
                 <div className="rounded-2xl border border-gray-700 bg-white/5 p-6 lg:col-span-1">
-                    <h2 className="text-xl font-semibold text-white">Development skills</h2>
+                    <h2 className="text-xl font-semibold text-foreground">Development skills</h2>
                     <ul className="mt-4 space-y-3 text-sm leading-6 text-gray-300">
                         {skills.map((skill) => (
                             <li key={skill} className="flex gap-3">

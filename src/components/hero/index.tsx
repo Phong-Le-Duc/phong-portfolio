@@ -53,6 +53,13 @@ export default function Hero() {
                 >
                     About me
                 </Link>
+                <Link
+                    className="self-start w-fit text-sm p-2 border-b-2 border-blue-700"
+                    href="/about-ai"
+                    aria-label="About AI"
+                >
+                    About AI
+                </Link>
             </div>
 
 

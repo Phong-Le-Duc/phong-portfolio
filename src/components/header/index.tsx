@@ -30,8 +30,11 @@ export default function Header() {
                         <Link href="/my-projects" aria-label="My Projects" className="site-header-link">
                             Projects
                         </Link>
-                        <Link href="/about" aria-label="About" className="site-header-link">
-                            About
+                        <Link href="/about" aria-label="About Me" className="site-header-link">
+                            About Me
+                        </Link>
+                        <Link href="/about-ai" aria-label="About AI" className="site-header-link">
+                            About AI
                         </Link>
                         <Link href="/contact" aria-label="Contact" className="site-header-link">
                             Contact

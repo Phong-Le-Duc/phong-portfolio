@@ -43,7 +43,8 @@ export default function MobileMenuPanel({ isOpen, onClose }: Props) {
                 <div className="flex flex-col gap-6">
                     <Link href="/" aria-label="Home" className="mobile-menu-link text-lg transition hover:text-white" onClick={handleNavigate("/")}>Home</Link>
                     <Link href="/my-projects" aria-label="My Projects" className="mobile-menu-link text-lg transition hover:text-white" onClick={handleNavigate("/my-projects")}>Projects</Link>
-                    <Link href="/about" aria-label="About" className="mobile-menu-link text-lg transition hover:text-white" onClick={handleNavigate("/about")}>About</Link>
+                    <Link href="/about" aria-label="About Me" className="mobile-menu-link text-lg transition hover:text-white" onClick={handleNavigate("/about")}>About Me</Link>
+                    <Link href="/about-ai" aria-label="About AI" className="mobile-menu-link text-lg transition hover:text-white" onClick={handleNavigate("/about-ai")}>About AI</Link>
                     <Link href="/contact" aria-label="Contact" className="mobile-menu-link text-lg transition hover:text-white" onClick={handleNavigate("/contact")}>Contact</Link>
                 </div>
 

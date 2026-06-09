@@ -38,7 +38,7 @@ export const projects: Project[] = [
     },
     {
         id: "project-4",
-        title: "Coming Soon",
+        title: "",
         description: "",
         href: "https://github.com/yourname/project-four",
         tags: [""],
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     },
     {
         id: "project-5",
-        title: "Coming Soon",
+        title: "",
         description: "",
         href: "",
         tags: [""],
@@ -56,7 +56,7 @@ export const projects: Project[] = [
     },
     {
         id: "project-6",
-        title: "Coming Soon",
+        title: "",
         description: "",
         href: "https://github.com/yourname/project-six",
         tags: [""],
