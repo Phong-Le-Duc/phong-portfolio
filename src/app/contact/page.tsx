@@ -67,7 +67,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="rounded-2xl border border-gray-700 bg-white/5 p-6">
-                    <h2 className="text-2xl font-semibold text-white">Quick contact</h2>
+                    <h2 className="contact-page-title mt-3 text-2xl  text-white md:text-4xl">Quick contact</h2>
                     <p className="mt-3 text-sm leading-6 text-gray-300 md:text-base">
                         The fastest way to reach me is by email. For quick calls on mobile, use the phone link and your
                         device will open the dialer directly.
