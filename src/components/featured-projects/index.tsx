@@ -7,6 +7,7 @@ export default function FeaturedProjects() {
 
             <div className="flex items-center justify-between gap-3">
                 <h3 className="text-2xl max-[420px]:text-sm font-bold">Featured Projects</h3>
+
                 <div className="flex shrink-0 items-center gap-2 text-sm text-blue-700 max-[420px]:text-xs">
                     <a
                         href="https://github.com/Phong-Le-Duc/Phong-Le-Duc"
@@ -20,6 +21,7 @@ export default function FeaturedProjects() {
                     </a>
                 </div>
             </div>
+            <p className="mt-2 text-xs italic">Note: Render may take a few seconds to wake up.</p>
 
             <ProjectsGrid featuredOnly limit={3} />
         </section>
