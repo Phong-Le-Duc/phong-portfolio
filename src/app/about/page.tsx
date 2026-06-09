@@ -35,7 +35,7 @@ export default function AboutPage() {
     return (
         <main className="mx-8 py-10">
             <section className="max-w-4xl">
-                <p className="text-sm uppercase tracking-[0.3em] text-blue-500">About me</p>
+                <h1 className="text-sm uppercase tracking-[0.3em] text-blue-500">About me</h1>
 
                 <p className="mt-4 max-w-3xl text-sm leading-6 text-gray-300 md:text-base">
                     I am a frontend developer focused on modern, user-friendly solutions where design and code work closely

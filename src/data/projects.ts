@@ -11,20 +11,20 @@ export type Project = {
 export const projects: Project[] = [
     {
         id: "project-1",
-        title: "Cinema Booking Mobile-Layout Web App",
-        description: "Built an end-to-end cinema booking flow with loader-driven data, interactive seat selection, checkout validation, and e-ticket generation.",
-        href: "https://phongs-cinema-app.netlify.app",
-        tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-        imageSrc: "/images/cinemaImage.png",
-        featured: true,
-    },
-    {
-        id: "project-2",
         title: "Fitness Class Mobile-Layout Booking App",
         description: "A fitness class booking app featuring server-rendered data fetching, type-safe form validation, JWT cookie authentication with server-side route protection, and role-based views for admins and members — built with a clean DAL pattern separating UI from API logic.",
         href: "https://phong-fitness.netlify.app/",
         tags: ["Next.js", "JavaScript", "Tailwind CSS"],
         imageSrc: "/images/fitnessImage.png",
+        featured: true,
+    },
+    {
+        id: "project-2",
+        title: "Cinema Booking Mobile-Layout Web App",
+        description: "Built an end-to-end cinema booking flow with loader-driven data, interactive seat selection, checkout validation, and e-ticket generation.",
+        href: "https://phongs-cinema-app.netlify.app",
+        tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+        imageSrc: "/images/cinemaImage.png",
         featured: true,
     },
     {

@@ -23,7 +23,7 @@ export default function Hero() {
             </div>
 
             <div className="relative z-10  flex flex-col gap-4 ">
-                <p className="self-start text-sm max-[350px]:text-xs bg-gray-900 px-2 py-1 rounded-lg text-blue-500">
+                <p className="hero-role-badge self-start text-sm max-[350px]:text-xs bg-gray-900 px-2 py-1 rounded-lg text-blue-500">
                     WEB / FRONTEND DEVELOPER
                 </p>
 
@@ -39,7 +39,7 @@ export default function Hero() {
 
             <div className="mt-6 flex flex-row gap-8 max-[310px]:flex-col max-[310px]:gap-3">
                 <Link
-                    className="self-start inline-flex w-fit items-center gap-2 text-sm bg-blue-700 p-2 rounded-lg"
+                    className="self-start inline-flex w-fit items-center gap-2 text-sm text-white bg-blue-700 p-2 rounded-lg"
                     href="/my-projects"
                     aria-label="View my projects"
                 >

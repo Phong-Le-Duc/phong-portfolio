@@ -12,7 +12,7 @@ export default function BurgerMenuButton({ isOpen, onToggle }: Props) {
             type="button"
         >
             <svg
-                className="w-8 h-8 text-white"
+                className="site-header-burger-icon w-8 h-8 text-white"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth={2}

@@ -27,6 +27,108 @@
   color: #374151;
 }
 
+:root[data-theme="light"] .site-header-bar {
+  background-color: rgba(255, 255, 255, 0.88);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+:root[data-theme="light"] .site-header-link {
+  color: #111827;
+}
+
+:root[data-theme="light"] .site-header-link:hover {
+  color: #2563eb;
+}
+
+:root[data-theme="light"] .site-header-burger-icon {
+  color: #111827;
+}
+
+:root[data-theme="light"] .header-theme-toggle-wrap {
+  background-color: #f9fafb;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+  --tw-ring-color: rgba(17, 24, 39, 0.14);
+}
+
+:root[data-theme="light"] .header-theme-toggle-wrap>button {
+  background-color: #ffffff;
+  border-color: rgba(17, 24, 39, 0.2);
+}
+
+:root[data-theme="light"] .header-theme-toggle-wrap>button:hover {
+  border-color: rgba(37, 99, 235, 0.6);
+  background-color: rgba(37, 99, 235, 0.08);
+}
+
+:root[data-theme="light"] .header-theme-toggle-wrap>button svg {
+  color: #2563eb;
+}
+
+:root[data-theme="light"] .hero-role-badge {
+  background-color: #e5e7eb;
+  color: #1d4ed8;
+
+}
+
+:root[data-theme="light"] .mobile-menu-overlay {
+  background-color: rgba(15, 23, 42, 0.18);
+}
+
+:root[data-theme="light"] .mobile-menu-panel {
+  border-left-color: #d1d5db;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #111827;
+}
+
+:root[data-theme="light"] .mobile-menu-close-btn {
+  border-color: #d1d5db;
+  color: #374151;
+}
+
+:root[data-theme="light"] .mobile-menu-close-btn:hover {
+  border-color: #3b82f6;
+  color: #1d4ed8;
+}
+
+:root[data-theme="light"] .mobile-menu-link {
+  color: #111827;
+}
+
+:root[data-theme="light"] .mobile-menu-link:hover {
+  color: #1d4ed8;
+}
+
+:root[data-theme="light"] .mobile-menu-theme-row {
+  border-top-color: #e5e7eb;
+}
+
+:root[data-theme="light"] .mobile-menu-theme-label {
+  color: #4b5563;
+}
+
+:root[data-theme="light"] .mobile-menu-meta {
+  border-top-color: #e5e7eb;
+  color: #4b5563;
+}
+
+:root[data-theme="light"] .mobile-menu-meta-name {
+  color: #111827;
+}
+
+:root[data-theme="light"] .contact-page-title {
+  color: #111827;
+}
+
+:root[data-theme="light"] .contact-primary-link {
+  color: #1d4ed8;
+}
+
+:root[data-theme="light"] .contact-primary-link:hover {
+  color: #1e40af;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
