@@ -48,18 +48,14 @@ export default function Hero() {
 
                 <Link
                     className="self-start w-fit text-sm p-2 border-b-2 border-blue-700"
-                    href="/about"
-                    aria-label="About me"
+                    href="/images/Phong_LeDuc_CV_2026.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View CV"
                 >
-                    About me
+                    View CV
                 </Link>
-                <Link
-                    className="self-start w-fit text-sm p-2 border-b-2 border-blue-700"
-                    href="/about-ai"
-                    aria-label="About AI"
-                >
-                    About AI
-                </Link>
+
             </div>
 
 
