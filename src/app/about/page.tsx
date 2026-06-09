@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function AboutPage() {
     const technologies = [
         "TypeScript",
@@ -43,6 +45,16 @@ export default function AboutPage() {
                     my backend skills.
                 </p>
 
+                <Link
+                    className="mt-3 inline-flex w-fit text-sm py-1 px-2  text-blue-500"
+                    href="/images/Phong_LeDuc_CV_2026.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View CV"
+                >
+                    View CV
+                </Link>
+
                 <details className="mt-4 max-w-3xl">
                     <summary className="cursor-pointer text-sm leading-6 font-normal text-blue-500 md:text-base">
                         Read more
@@ -71,6 +83,7 @@ export default function AboutPage() {
                         </p>
                     </div>
                 </details>
+
             </section>
 
             <section className="mt-10 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
