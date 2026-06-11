@@ -29,7 +29,7 @@ export const projects: Project[] = [
     },
     {
         id: "project-3",
-        title: "Real Estate Website Desktop-Layout",
+        title: "Real Estate Website (desktop-Layout only)",
         description: "A production-ready real estate web app built for speed, clean UX, and scalable frontend architecture. It delivers a complete property-search journey with dynamic listings, agent profiles, detailed property pages, validated contact forms, and a full authentication system including secure login, protected user-only routes, and favorites for signed-in users.",
         href: "https://phong-real-estate-website.netlify.app/",
         tags: ["Vite", "React", "TypeScript"],
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     },
     {
         id: "project-4",
-        title: "Portfolio site mobile and desktop layout",
+        title: "Portfolio site (responsive layout)",
         description: "A personal portfolio website showcasing projects, skills, and experience with responsive design for both mobile and desktop layouts.",
         href: "https://phongleduc-portfolio.netlify.app/",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],

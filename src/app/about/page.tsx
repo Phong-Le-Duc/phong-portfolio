@@ -39,14 +39,57 @@ export default function AboutPage() {
             <section className="max-w-4xl">
                 <h1 className="text-sm uppercase tracking-[0.3em] text-blue-500">About me</h1>
 
-                <p className="mt-4 max-w-3xl text-sm leading-6 text-gray-300 md:text-base">
-                    I am a frontend developer focused on modern, user-friendly solutions where design and code work closely
-                    together. I build with high quality, strong visual attention, and a clear goal of continuously expanding
-                    my backend skills.
-                </p>
+
+                <div className="mt-4 max-w-3xl text-sm leading-6 text-gray-300 md:text-base space-y-4">
+                    <p>
+                        I am based in Tåstrup, where I live with my wife and our two young sons.
+                        In my free time, I value spending time with my family and enjoying everyday life at home.
+                    </p>
+
+                    <p>
+                        I am a person who enjoys building things — from music to code.
+                        I am motivated by turning creative ideas into real, working solutions and by continuously improving my skills as a developer.
+                    </p>
+
+                    <p>
+                        I am passionate about continuous learning and personal growth, and I often read books on design and software development,
+                        ranging from <em>Don’t Make Me Think</em> to <em>The Pragmatic Programmer</em>.
+                        Outside of tech, I enjoy all things science fiction and stories that explore new ideas and perspectives.
+                    </p>
+                </div>
+
+
+
+                <details className="mt-4 max-w-3xl">
+                    <summary className="cursor-pointer text-sm leading-6 font-normal text-blue-500 md:text-base">
+                        My background & approach
+                    </summary>
+                    <div className="mt-3 text-sm leading-6 text-gray-300 md:text-base space-y-4">
+                        <p>
+                            I am a trained frontend developer with a strong focus on building modern and responsive web applications.
+                            I chose frontend because I enjoy working at the intersection of design and functionality, where user experience plays a central role.
+                        </p>
+
+                        <p>
+                            My background in digital concept development has given me a strong understanding of branding, visual identity,
+                            and user-centered design. It allows me to think beyond code and see digital products as complete experiences.
+                        </p>
+
+                        <p>
+                            I am also interested in full stack development and am actively expanding my backend skills to better understand
+                            the full development process. My approach to development is structured, detail-oriented, and focused on writing maintainable code.
+                        </p>
+
+                        <p>
+                            I take pride in delivering high-quality solutions, with a strong focus on usability, performance, and attention to detail.
+                            I enjoy continuous learning and see every project as an opportunity to improve my skills as a developer.
+                        </p>
+
+                    </div>
+                </details>
 
                 <Link
-                    className="mt-3 inline-flex w-fit text-sm py-1 px-2  text-blue-500"
+                    className="mt-3 inline-flex w-fit text-sm py-1 px-2 text-blue-500"
                     href="/images/Phong_LeDuc_CV_2026.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -55,34 +98,6 @@ export default function AboutPage() {
                     View CV
                 </Link>
 
-                <details className="mt-4 max-w-3xl">
-                    <summary className="cursor-pointer text-sm leading-6 font-normal text-blue-500 md:text-base">
-                        Read more
-                    </summary>
-                    <div className="mt-3 space-y-4 text-sm leading-6 text-gray-300 md:text-base">
-                        <p>
-                            I am a visual and detail-oriented developer with a passion for creating modern,
-                            user-friendly, and well-crafted digital solutions. I thrive at the intersection of design
-                            and code, where both functionality and user experience play a crucial role.
-                        </p>
-                        <p>
-                            As a trained modern frontend developer, I have strong skills in building responsive and
-                            interactive web applications. At the same time, I am interested in the full stack and have
-                            a clear goal of continuously developing my backend skills so I can contribute across the
-                            entire development process.
-                        </p>
-                        <p>
-                            I also come with a background in digital concept development, which has given me a solid
-                            understanding of branding, visual identity, digital communication, and user-centered design.
-                            That experience means I do not only see a website as code, but as a complete experience where
-                            design, technology, and business need to work together.
-                        </p>
-                        <p>
-                            I take pride in delivering high-quality solutions, bringing a sharp eye for detail, and
-                            continuously learning and growing as a developer.
-                        </p>
-                    </div>
-                </details>
 
             </section>
 
@@ -143,6 +158,6 @@ export default function AboutPage() {
                     </ul>
                 </div>
             </section>
-        </main>
+        </main >
     );
 }
