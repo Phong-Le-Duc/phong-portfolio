@@ -8,6 +8,16 @@ export type Project = {
     featured?: boolean;
 };
 
+
+export type SlideImage = {
+    id: string;
+    src: string;
+    href: string;
+    alt: string;
+};
+
+
+
 export const projects: Project[] = [
     {
         id: "project-1",
@@ -64,4 +74,84 @@ export const projects: Project[] = [
         featured: true,
     },
 
+];
+
+
+
+
+
+export const slideImages: SlideImage[] = [
+    {
+        id: "1",
+        src: "/images/cinemaPhone_1.png",
+        href: "https://phongs-cinema-app.netlify.app",
+        alt: "Project 1",
+    },
+
+    {
+        id: "2",
+        src: "/images/cinemaPhone_2.png",
+        href: "https://phongs-cinema-app.netlify.app",
+        alt: "Project 1",
+    },
+    {
+        id: "3",
+        src: "/images/estatePhone_1.png",
+        href: "https://phong-real-estate-website.netlify.app/",
+        alt: "Project 2",
+    },
+    {
+        id: "4",
+        src: "/images/estatePhone_2.png",
+        href: "https://phong-real-estate-website.netlify.app/",
+        alt: "Project 2",
+    },
+    {
+        id: "5",
+        src: "/images/fitnessPhone_1.png",
+        href: "https://phong-fitness.netlify.app/",
+        alt: "Project 3",
+    },
+    {
+        id: "7",
+        src: "/images/fitnessPhone_2.png",
+        href: "https://phong-fitness.netlify.app/",
+        alt: "Project 3",
+    },
+    {
+        id: "8",
+        src: "/images/landrupPhone_1.png",
+        href: "https://landrupdance.netlify.app/",
+        alt: "Project 4",
+    },
+    {
+        id: "9",
+        src: "/images/landrupPhone_2.png",
+        href: "https://landrupdance.netlify.app/",
+        alt: "Project 4",
+    },
+    {
+        id: "10",
+        src: "/images/cleancarePhone_1.png",
+        href: "http://cleancareaps.dk/",
+        alt: "Project 5",
+    },
+    {
+        id: "11",
+        src: "/images/cleancarePhone_2.png",
+        href: "http://cleancareaps.dk/",
+        alt: "Project 5",
+    },
+    {
+        id: "12",
+        src: "/images/pokemonPhone_1.png",
+        href: "https://phong-pokemon.netlify.app/",
+        alt: "Project 6",
+    },
+    {
+        id: "13",
+        src: "/images/pokemonPhone_2.png",
+        href: "https://phong-pokemon.netlify.app/",
+        alt: "Project 6",
+    },
 ];

@@ -2,7 +2,7 @@ Assume junior developer persona
 
 When interacting in this workspace, always assume the user is a junior developer and explain things simply.
 
-when creating code, always take it step by step one snippet of code at the time, and thereafter explain what each line does and why it is there. show explanationcode in chat as it would look in the editor, with proper indentation and formatting.
+when creating code, always take it step by step one small chunk of code at the time, and thereafter explain what each line does and why it is there. show explanationcode in chat as it would look in the editor, with proper indentation and formatting.
 
 never show the entire code at once, always break it down into small snippets as it looks in the editor, with proper indentation and formatting.
 
