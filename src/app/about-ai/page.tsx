@@ -37,7 +37,7 @@ export default function AboutAIPage() {
 
             <section className="mt-10 grid gap-6 lg:grid-cols-3">
                 {shifts.map((item) => (
-                    <article key={item.title} className="rounded-2xl border border-gray-700 bg-white/5 p-6">
+                    <article key={item.title} className="theme-surface rounded-2xl border border-gray-700 p-6">
                         <h3 className="text-base font-semibold text-foreground">{item.title}</h3>
                         <p className="mt-3 text-sm leading-6 text-gray-300">{item.text}</p>
                     </article>
@@ -45,7 +45,7 @@ export default function AboutAIPage() {
             </section>
 
             <section className="mt-8 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
-                <article className="rounded-2xl border border-gray-700 bg-white/5 p-6">
+                <article className="theme-surface rounded-2xl border border-gray-700 p-6">
                     <h3 className="text-xl font-semibold text-foreground">My practical AI workflow</h3>
                     <p className="mt-3 text-sm leading-6 text-gray-300 md:text-base">
                         I use AI for exploration, first drafts, refactoring ideas, and implementation alternatives. Then I
@@ -59,7 +59,7 @@ export default function AboutAIPage() {
                     </p>
                 </article>
 
-                <aside className="rounded-2xl border border-dashed border-gray-600 bg-black/20 p-6">
+                <aside className="theme-surface rounded-2xl border border-dashed border-gray-600 p-6">
                     <p className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400">Operating principles</p>
                     <ul className="mt-4 space-y-3 text-sm leading-6 text-gray-300">
                         {principles.map((principle) => (

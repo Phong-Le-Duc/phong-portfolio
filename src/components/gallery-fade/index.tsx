@@ -120,6 +120,8 @@ export default function GalleryFade({
 
     return (
         <section className={styles.gallery} aria-label="Featured project gallery">
+            <p className="mt-4 mb-2 font-bold">My projects</p>
+            <p className="my-2 text-xs italic">Note: Render takes a minute to spin up and load data.</p>
             <div className={styles.viewport}>
                 <div className={cardClass}>
                     <ProjectCard key={currentProject.id} project={currentProject} />

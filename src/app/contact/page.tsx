@@ -13,7 +13,7 @@ export default function ContactPage() {
             </section>
 
             <section className="mt-10 grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-                <div className="rounded-2xl border border-gray-700 bg-white/5 p-6">
+                <div className="theme-surface rounded-2xl border border-gray-700 p-6">
                     <div className="relative mx-auto aspect-square w-44 overflow-hidden rounded-2xl">
                         <Image
                             src="/images/phong.jpeg"
@@ -66,7 +66,7 @@ export default function ContactPage() {
                     </div>
                 </div>
 
-                <div className="rounded-2xl border border-gray-700 bg-white/5 p-6">
+                <div className="theme-surface rounded-2xl border border-gray-700 p-6">
                     <h2 className="contact-page-title mt-3 text-2xl  text-white md:text-4xl">Quick contact</h2>
                     <p className="mt-3 text-sm leading-6 text-gray-300 md:text-base">
                         The fastest way to reach me is by email. For quick calls on mobile, use the phone link and your
@@ -88,7 +88,7 @@ export default function ContactPage() {
                         </a>
                     </div>
 
-                    <div className="mt-8 rounded-xl border border-dashed border-gray-600 bg-black/20 p-4">
+                    <div className="theme-surface mt-8 rounded-xl border border-dashed border-gray-600 p-4">
                         <p className="text-xs font-bold uppercase tracking-[0.2em] text-gray-400">Availability</p>
                         <p className="mt-2 text-sm text-gray-300">Open for frontend roles and company internship opportunities.</p>
                     </div>

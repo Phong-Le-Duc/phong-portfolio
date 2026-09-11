@@ -104,7 +104,7 @@ export default function AboutPage() {
             <section className="mt-10 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
 
 
-                <div className="rounded-2xl border border-dashed border-gray-600 bg-black/30 p-4">
+                <div className="theme-surface rounded-2xl border border-dashed border-gray-600 p-4">
                     <div className="relative aspect-video w-full overflow-hidden rounded-xl border border-gray-700 bg-black">
                         <iframe
                             src="https://player.vimeo.com/video/1161750448"
@@ -118,7 +118,7 @@ export default function AboutPage() {
             </section>
 
             <section className="mt-12 grid gap-8 lg:grid-cols-3">
-                <div className="rounded-2xl border border-gray-700 bg-white/5 p-6">
+                <div className="theme-surface rounded-2xl border border-gray-700 p-6">
                     <h2 className="text-xl font-semibold text-foreground">Technologies</h2>
                     <div className="mt-4 flex flex-wrap gap-2">
                         {technologies.map((technology) => (
@@ -132,7 +132,7 @@ export default function AboutPage() {
                     </div>
                 </div>
 
-                <div className="rounded-2xl border border-gray-700 bg-white/5 p-6">
+                <div className="theme-surface rounded-2xl border border-gray-700 p-6">
                     <h2 className="text-xl font-semibold text-foreground">Technologies in progress</h2>
                     <div className="mt-4 flex flex-wrap gap-2">
                         {technologiesInProgress.map((technology) => (
@@ -146,7 +146,7 @@ export default function AboutPage() {
                     </div>
                 </div>
 
-                <div className="rounded-2xl border border-gray-700 bg-white/5 p-6 lg:col-span-1">
+                <div className="theme-surface rounded-2xl border border-gray-700 p-6 lg:col-span-1">
                     <h2 className="text-xl font-semibold text-foreground">Development skills</h2>
                     <ul className="mt-4 space-y-3 text-sm leading-6 text-gray-300">
                         {skills.map((skill) => (

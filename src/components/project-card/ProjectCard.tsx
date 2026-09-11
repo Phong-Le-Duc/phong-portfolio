@@ -6,7 +6,7 @@ type Props = { project: Project };
 export default function ProjectCard({ project }: Props) {
     return (
         <>
-         <p className="mt-4 mb-2 font-bold">My projects</p>
+         
         <a
             href={project.href}
             target="_blank"

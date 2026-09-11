@@ -1,4 +1,4 @@
-import Hero from "@/components/hero";
+import HeroV3 from "@/components/hero-v3";
 import Link from "next/link";
 import GalleryFade from "@/components/gallery-fade";
 import GallerySlide from "@/components/gallery-slide";
@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <main className="mx-4">
 
-      <Hero />
+      <HeroV3 />
 
       <div className="border-b border-gray-700  max-[768px]:-mx-4 max-[768px]:w-[calc(100%+2rem)]"></div>
 

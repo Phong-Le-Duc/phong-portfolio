@@ -1,5 +1,5 @@
-import ProjectCard from "@/components/project-card/ProjectCard";
 import { projects as allProjects, type Project } from "@/data/projects";
+import ProjectListCard from "../project-list-card";
 
 type Props = {
     projects?: Project[];
@@ -23,7 +23,7 @@ export default function ProjectsGrid({
     return (
         <div className={gridClassName}>
             {visible.map((project) => (
-                <ProjectCard key={project.id} project={project} />
+                <ProjectListCard key={project.id} project={project} />
             ))}
         </div>
     );
