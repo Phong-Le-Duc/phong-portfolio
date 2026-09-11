@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function HeroV3() {
     return (
-        <section className="relative flex w-full flex-col justify-center overflow-hidden py-10 max-[768px]:-mx-4 max-[768px]:w-[calc(100%+2rem)] max-[768px]:px-4 md:py-12">
+        <section className="relative -mx-4 flex w-[calc(100%+2rem)] flex-col justify-center overflow-hidden py-10 px-4 md:py-12">
             <div className="absolute inset-0">
                 <Image
                     src="/images/heroBackground_2.jpg"
