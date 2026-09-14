@@ -26,7 +26,7 @@ export default function ContactPage() {
                     </div>
 
                     <div className="mt-5 text-center">
-                        <h2 className="text-xl font-semibold text-white">Phong Le Duc</h2>
+                        <h2 className="text-xl font-semibold text-foreground">Phong Le Duc</h2>
                         <p className="mt-1 text-sm text-gray-400">Frontend Developer</p>
                     </div>
 
