@@ -42,8 +42,8 @@
 .galleryTrack {
     display: flex;
     width: max-content;
-    gap: 1rem;
-    animation: gallerySlide 120s linear infinite;
+    gap: 2rem;
+    animation: gallerySlide 180s linear infinite;
     will-change: transform;
 }
 
@@ -54,12 +54,12 @@
 .galleryGroup {
     display: flex;
     flex-shrink: 0;
-    gap: 1rem;
+    gap: 6rem;
 }
 
 .galleryItem {
-    width: 14rem;
-    min-width: 14rem;
+    width: 8rem;
+    min-width: 8rem;
     flex-shrink: 0;
     overflow: hidden;
     scroll-snap-align: start;
@@ -79,6 +79,6 @@
     }
 
     to {
-        transform: translateX(calc(-50% - 0.5rem));
+        transform: translateX(calc(-50% - 1rem));
     }
 }

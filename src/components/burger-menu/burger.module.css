@@ -1,0 +1,30 @@
+.burgerBars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 1.75rem;
+    gap: 6px;
+    color: #ffffff;
+    transform: skewX(0deg);
+    transform-origin: center;
+    transition: transform 260ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.burgerBar {
+    display: block;
+    height: 2px;
+    border-radius: 9999px;
+    background-color: currentColor;
+    transition: background-color 220ms ease, box-shadow 220ms ease;
+}
+
+.burgerBars.active {
+    transform: skewX(-40deg);
+    transition: transform 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.burgerBars.active .burgerBar {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    box-shadow: 0 4px 10px rgba(29, 78, 216, 0.45);
+}

@@ -24,23 +24,24 @@ export default function HeroV3() {
                 </p>
 
                 <h1 className="text-4xl text-white max-[350px]:text-3xl md:text-5xl">
-                    I build clean, <br /> functional web<br /> experiences
+                    A dream to build,<br />clean, accessible<br />web experiences
                     <span className="text-blue-500">.</span>
                 </h1>
 
                 <p className="max-w-xl text-gray-200 max-[350px]:text-sm">
-                    I&apos;m a developer who loves building things <br /> for the web. Here are some of my projects.
+                    Curious by nature and hardworking by habit. I&apos;m a junior frontend developer committed to evolving quickly, mastering modern frameworks, and delivering intuitive, reliable web applications.
+
                 </p>
             </div>
 
-            <div className="relative z-10 mt-6 flex flex-row gap-8 px-4 max-[310px]:flex-col max-[310px]:gap-3 md:px-8">
-                <Link
+            <div className="relative z-10 mt-4 flex flex-row gap-8 px-4 max-[310px]:flex-col max-[310px]:gap-3 md:px-8">
+                {/* <Link
                     className="inline-flex w-fit items-center gap-2 self-start rounded-lg bg-blue-700 p-2 text-sm text-white"
                     href="/my-projects"
                     aria-label="View my projects"
                 >
                     View Projects <FaArrowRightLong className="h-3 w-3" />
-                </Link>
+                </Link> */}
 
                 <Link
                     className="w-fit self-start border-b-2 border-blue-700 p-2 text-sm text-white"

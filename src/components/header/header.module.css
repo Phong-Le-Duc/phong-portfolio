@@ -29,6 +29,16 @@
     outline-offset: 2px;
 }
 
+.site-header-link--active {
+    background: linear-gradient(135deg, #f59e0b, #c2410c);
+    border-color: rgba(254, 215, 170, 0.55);
+    box-shadow: 0 6px 18px rgba(194, 65, 12, 0.4);
+}
+
+.site-header-link--active:hover {
+    box-shadow: 0 10px 24px rgba(194, 65, 12, 0.65);
+}
+
 :root[data-theme="light"] .site-header-link-label {
     color: #111827;
 }

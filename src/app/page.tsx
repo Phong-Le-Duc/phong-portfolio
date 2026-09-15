@@ -1,5 +1,6 @@
 import HeroV3 from "@/components/hero-v3";
 import Link from "next/link";
+import Skillset from "@/components/skillset";
 import GalleryFade from "@/components/gallery-fade";
 import GallerySlide from "@/components/gallery-slide";
 
@@ -25,6 +26,11 @@ export default function Page() {
       <Link href="/my-projects" className="my-4 block text-center text-blue-500 hover:text-blue-700">
         View Project list
       </Link>
+
+
+      <div>
+        <Skillset />
+      </div>
     </main>
   )
 

@@ -1,0 +1,119 @@
+.skillset {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #eff6ff;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.tabButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 0.75rem;
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    color: #eff6ff;
+    border: 1px solid rgba(191, 219, 254, 0.45);
+    box-shadow: 0 6px 18px rgba(29, 78, 216, 0.35);
+    transform: skewX(-40deg);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 180ms ease, filter 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.tabButtonLabel {
+    display: inline-block;
+    transform: skewX(40deg);
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+}
+
+@media (min-width: 480px) {
+    .tabButton {
+        padding: 0.35rem 1.25rem;
+    }
+
+    .tabButtonLabel {
+        font-size: 0.95rem;
+    }
+}
+
+.tabButton:hover {
+    transform: translateY(0px) skewX(-40deg);
+    filter: brightness(1.08);
+    box-shadow: 0 10px 24px rgba(29, 78, 216, 0.65);
+}
+
+.tabButton:focus-visible {
+    outline: 2px solid #bfdbfe;
+    outline-offset: 2px;
+}
+
+.tabButton--active {
+    background: linear-gradient(135deg, #f59e0b, #c2410c);
+    border-color: rgba(254, 215, 170, 0.55);
+    box-shadow: 0 6px 18px rgba(194, 65, 12, 0.4);
+}
+
+.tabButton--active:hover {
+    box-shadow: 0 10px 24px rgba(194, 65, 12, 0.65);
+}
+
+.chipList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: opacity 200ms ease;
+}
+
+.chipList.hidden {
+    opacity: 0;
+}
+
+.chipList.visible {
+    opacity: 1;
+}
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 0.85rem;
+    border-radius: 9999px;
+    background-color: rgba(59, 130, 246, 0.16);
+    border: 1px solid rgba(96, 165, 250, 0.35);
+    color: #dbeafe;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    box-shadow: inset 3px 3px 8px rgba(29, 78, 216, 0.7);
+}
+
+:root[data-theme="light"] .title {
+    color: #111827;
+}
+
+:root[data-theme="light"] .chip {
+    background-color: rgba(37, 99, 235, 0.1);
+    border-color: rgba(37, 99, 235, 0.25);
+    color: #1d4ed8;
+    box-shadow: inset 3px 3px 8px rgba(29, 78, 216, 0.45);
+}

@@ -1,3 +1,5 @@
+import styles from "./burger.module.css";
+
 type Props = {
     isOpen: boolean;
     onToggle: () => void;
@@ -6,21 +8,19 @@ type Props = {
 export default function BurgerMenuButton({ isOpen, onToggle }: Props) {
     return (
         <button
-            className="md:hidden mr-2"
+            className="md:hidden mr-2 w-8 h-8 flex items-center justify-center"
             aria-label={isOpen ? "Close menu" : "Open menu"}
             onClick={onToggle}
             type="button"
         >
-            <svg
-                className="site-header-burger-icon w-8 h-8 text-white"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                viewBox="0 0 24 24"
+            <span
+                className={`site-header-burger-icon ${styles.burgerBars} ${isOpen ? styles.active : ""}`}
                 aria-hidden="true"
             >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+                <span className={styles.burgerBar} />
+                <span className={styles.burgerBar} />
+                <span className={styles.burgerBar} />
+            </span>
         </button>
     );
 }

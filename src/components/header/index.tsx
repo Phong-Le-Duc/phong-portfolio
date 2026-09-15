@@ -2,6 +2,7 @@
 import styles from "./header.module.css";
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 import { HeaderThemeToggle } from "@/components/theme-toggle";
 import BurgerMenuButton from "@/components/burger-menu";
@@ -11,6 +12,10 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => setIsOpen((prev) => !prev);
     const closeMenu = () => setIsOpen(false);
+    const pathname = usePathname();
+
+    const linkClassName = (href: string) =>
+        `${styles["site-header-link"]} ${pathname === href ? styles["site-header-link--active"] : ""}`;
 
     return (
         <header className="sticky top-0 z-50">
@@ -30,7 +35,7 @@ export default function Header() {
                         <Link
                             href="/my-projects"
                             aria-label="My Projects"
-                            className={styles["site-header-link"]}
+                            className={linkClassName("/my-projects")}
                         >
                             <span className={styles["site-header-link-label"]}>Projects</span>
                         </Link>
@@ -38,7 +43,7 @@ export default function Header() {
                         <Link
                             href="/about"
                             aria-label="About Me"
-                            className={styles["site-header-link"]}
+                            className={linkClassName("/about")}
                         >
                             <span className={styles["site-header-link-label"]}>About Me</span>
                         </Link>
@@ -46,7 +51,7 @@ export default function Header() {
                         <Link
                             href="/about-ai"
                             aria-label="About AI"
-                            className={styles["site-header-link"]}
+                            className={linkClassName("/about-ai")}
                         >
                             <span className={styles["site-header-link-label"]}>About AI</span>
                         </Link>
@@ -54,7 +59,7 @@ export default function Header() {
                         <Link
                             href="/contact"
                             aria-label="Contact"
-                            className={styles["site-header-link"]}
+                            className={linkClassName("/contact")}
                         >
                             <span className={styles["site-header-link-label"]}>Contact</span>
                         </Link>
