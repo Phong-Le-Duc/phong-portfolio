@@ -21,7 +21,7 @@
 .site-header-link:hover {
     transform: translateY(0px) skewX(-40deg);
     filter: brightness(1.08);
-    box-shadow: 0 10px 24px rgba(29, 78, 216, 0.45);
+    box-shadow: 0 10px 24px rgba(29, 78, 216, 0.65);
 }
 
 .site-header-link:focus-visible {
