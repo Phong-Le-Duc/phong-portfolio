@@ -29,6 +29,10 @@
   color: #374151;
 }
 
+.hero-lede {
+  color: #e5e7eb;
+}
+
 :root[data-theme="light"] .site-header-bar {
   background-color: rgba(255, 255, 255, 0.88);
   -webkit-backdrop-filter: blur(4px);
@@ -36,15 +40,15 @@
   border-bottom: 1px solid #e5e7eb;
 }
 
-:root[data-theme="light"] .site-header-link {
+:root[data-theme="light"] .site-header-burger-icon {
   color: #111827;
 }
 
-:root[data-theme="light"] .site-header-link:hover {
-  color: #2563eb;
+:root[data-theme="light"] .view-projects-link {
+  color: #111827;
 }
 
-:root[data-theme="light"] .site-header-burger-icon {
+:root[data-theme="light"] .about-cv-link {
   color: #111827;
 }
 

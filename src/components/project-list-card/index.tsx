@@ -4,11 +4,9 @@ import type { Project } from "@/data/projects";
 
 type Props = { project: Project };
 
-const githubProfileHref = "https://github.com/Phong-Le-Duc/Phong-Le-Duc";
-
 export default function ProjectListCard({ project }: Props) {
     return (
-        <div className="project-card-link group flex h-full flex-col rounded-lg border border-gray-700 p-3 transition hover:border-blue-500 sm:mx-4 md:mx-0">
+        <div className="project-card-link group flex h-full flex-col rounded-lg border border-gray-700 p-3 shadow-[0_4px_8px_-2px_rgba(59,130,246,0.85),0_14px_18px_-6px_rgba(59,130,246,0.4),0_28px_24px_-10px_rgba(59,130,246,0.25)] transition hover:border-blue-500 sm:mx-4 md:mx-0">
             <a href={project.href} target="_blank" rel="noreferrer" className="flex cursor-pointer flex-row gap-3">
                 <div className="flex w-[42%] min-w-[42%] flex-none flex-col gap-2">
                     <div className="relative aspect-4/3 overflow-hidden rounded-md border border-gray-600/60">
@@ -33,7 +31,7 @@ export default function ProjectListCard({ project }: Props) {
             <div className="mt-4 flex items-center justify-between gap-3 text-xs text-gray-400">
                 <p className="text-sm italic">{project.tags.join(" • ")}</p>
                 <a
-                    href={githubProfileHref}
+                    href={project.githubHref}
                     target="_blank"
                     rel="noreferrer noopener"
                     aria-label={`View ${project.title} on GitHub`}

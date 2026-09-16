@@ -11,7 +11,7 @@ export default function ProjectCard({ project }: Props) {
                 href={project.href}
                 target="_blank"
                 rel="noreferrer"
-                className="project-card-link group flex h-full flex-col gap-3 rounded-lg border border-gray-700 p-3 transition hover:border-blue-500 sm:mx-4 md:mx-0 md:flex-row md:items-stretch"
+                className="project-card-link group flex h-full flex-col gap-3 rounded-lg border border-gray-700 p-6 shadow-[0_4px_8px_-2px_rgba(59,130,246,0.85),0_14px_18px_-6px_rgba(59,130,246,0.4),0_28px_24px_-10px_rgba(59,130,246,0.25)]"
                 aria-label={project.title}
             >
                 <div className="relative aspect-4/3 w-full overflow-hidden rounded-md border border-gray-600/60 md:w-[42%] md:min-w-[42%]">

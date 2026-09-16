@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import styles from "./skillset.module.css";
-import { skillGroups } from "@/data/skills";
+import { skillGroups, softSkills } from "@/data/skills";
 
 const FADE_DURATION_MS = 200;
 
@@ -46,11 +46,28 @@ export default function Skillset() {
                 className={`${styles.chipList} ${visible ? styles.visible : styles.hidden}`}
             >
                 {activeGroup.skills.map((skill) => (
-                    <li key={skill} className={styles.chip}>
-                        {skill}
+                    <li
+                        key={skill.name}
+                        className={`${styles.chip} ${styles[`chip--${skill.category}`]}`}
+                    >
+                        {skill.name}
                     </li>
                 ))}
             </ul>
+
+            <div className={styles.softSkills}>
+                <div className={styles.softSkillsHeading}>
+                    <span className={styles.softSkillsHeadingLabel}>Soft Skills</span>
+                </div>
+
+                <ul className={styles.chipList}>
+                    {softSkills.map((skill) => (
+                        <li key={skill} className={`${styles.chip} ${styles["chip--soft"]}`}>
+                            {skill}
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </section>
     );
 }

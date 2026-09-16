@@ -5,6 +5,7 @@ export type Project = {
     listTitle: string;
     listDescription: string;
     href: string;
+    githubHref: string;
     tags: string[];
     imageSrc: string;
     featured?: boolean;
@@ -28,6 +29,7 @@ export const projects: Project[] = [
         listTitle: "Real Estate",
         listDescription: "Real estate app with search, property pages, auth, and favorites.",
         href: "https://phong-real-estate-website.netlify.app/",
+        githubHref: "https://github.com/Phong-Le-Duc/dinmaegler-Phong-Le-Duc",
         tags: ["Vite", "React", "TypeScript"],
         imageSrc: "/images/realEstateImage.png",
         featured: true,
@@ -39,6 +41,7 @@ export const projects: Project[] = [
         listTitle: "Cinema Booking",
         listDescription: "Cinema booking flow with seats, checkout, and e-tickets.",
         href: "https://phongs-cinema-app.netlify.app",
+        githubHref: "https://github.com/Phong-Le-Duc/Phongs-cinema-app",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
         imageSrc: "/images/cinemaImage.png",
         featured: true,
@@ -50,6 +53,7 @@ export const projects: Project[] = [
         listTitle: "Fitness Booking",
         listDescription: "Fitness booking app with auth, validation, and role views.",
         href: "https://phong-fitness.netlify.app/",
+        githubHref: "https://github.com/Phong-Le-Duc/BelieveFitness",
         tags: ["Next.js", "JavaScript", "Tailwind CSS"],
         imageSrc: "/images/fitnessImage.png",
         featured: true,
@@ -61,6 +65,7 @@ export const projects: Project[] = [
         listTitle: "Clean & Care",
         listDescription: "Responsive cleaning service site with a modern interface.",
         href: "https://phong-clean-and-care.netlify.app/",
+        githubHref: "https://github.com/Phong-Le-Duc/REPLACE_ME_7",
         tags: ["HTML", "CSS", "JavaScript"],
         imageSrc: "/images/cleancareImage.png",
         featured: true,
@@ -72,6 +77,7 @@ export const projects: Project[] = [
         listTitle: "Newsify",
         listDescription: "Mobile news website with search and category filters.",
         href: "https://phong-newsify.netlify.app/",
+        githubHref: "https://github.com/Phong-Le-Duc/newsify",
         tags: ["React", "JavaScript", "Sass/SCSS"],
         imageSrc: "/images/newsifyImage_1.png",
         featured: true,
@@ -83,6 +89,7 @@ export const projects: Project[] = [
         listTitle: "Landrup Dans",
         listDescription: "Booking app with login, auth, and class schedules and more.",
         href: "https://landrupdance.netlify.app/",
+        githubHref: "https://github.com/Phong-Le-Duc/landrup-dans",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
         imageSrc: "/images/landrupImage_2.png",
         featured: true,
@@ -93,7 +100,8 @@ export const projects: Project[] = [
         description: "a pokemon website with responsive design, featuring a Pokedex, type charts, and search elements.",
         listTitle: "Pokemon",
         listDescription: "Responsive website with search function and list/detail views.",
-        href: "https://phong-pokemon.netlify.app/",
+        href: "https://github.com/Phong-Le-Duc/pokemon",
+        githubHref: "",
         tags: ["React", "JavaScript", "Tailwind CSS"],
         imageSrc: "/images/pokemonImage_1.png",
         featured: true,
@@ -105,6 +113,7 @@ export const projects: Project[] = [
         listTitle: "Portfolio",
         listDescription: "Responsive portfolio site for projects, skills, and experience.",
         href: "https://phongleduc-portfolio.netlify.app/",
+        githubHref: "https://github.com/Phong-Le-Duc/phong-portfolio",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
         imageSrc: "/images/portfolioImage.png",
         featured: true,

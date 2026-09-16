@@ -38,7 +38,3 @@
 .site-header-link--active:hover {
     box-shadow: 0 10px 24px rgba(194, 65, 12, 0.65);
 }
-
-:root[data-theme="light"] .site-header-link-label {
-    color: #111827;
-}

@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function HeroV3() {
     return (
-        <section className="relative -mx-4 flex w-[calc(100%+2rem)] flex-col justify-center overflow-hidden py-10 px-4 md:py-12">
+        <section className="relative -mx-4 flex w-[calc(100%+2rem)] flex-col justify-center overflow-hidden border-b-2 border-blue-500 py-10 px-4 shadow-[0_6px_10px_rgba(59,130,246,0.85),0_30px_30px_rgba(59,130,246,0.4),0_70px_60px_rgba(59,130,246,0.25)] md:py-12">
             <div className="absolute inset-0">
                 <Image
                     src="/images/heroBackground_2.jpg"
@@ -23,12 +23,12 @@ export default function HeroV3() {
                     WEB / FRONTEND DEVELOPER
                 </p>
 
-                <h1 className="text-4xl text-white max-[350px]:text-3xl md:text-5xl">
+                <h1 className="text-3xl text-white max-[350px]:text-3xl md:text-5xl">
                     A dream to build,<br />clean, accessible<br />web experiences
                     <span className="text-blue-500">.</span>
                 </h1>
 
-                <p className="max-w-xl text-gray-200 max-[350px]:text-sm">
+                <p className="hero-lede max-w-xl max-[350px]:text-sm">
                     Curious by nature and hardworking by habit. I&apos;m a junior frontend developer committed to evolving quickly, mastering modern frameworks, and delivering intuitive, reliable web applications.
 
                 </p>

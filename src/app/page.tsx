@@ -6,29 +6,31 @@ import GallerySlide from "@/components/gallery-slide";
 
 export default function Page() {
   return (
-    <main className="mx-4">
+    <main className="mx-4 ">
 
       <HeroV3 />
 
-      <div className="border-b border-gray-700  max-[768px]:-mx-4 max-[768px]:w-[calc(100%+2rem)]"></div>
+      {/* <div className="border-b border-gray-700 shadow-[0_18px_28px_rgba(255,255,255,0.85)] max-[768px]:-mx-4 max-[768px]:w-[calc(100%+2rem)]"></div> */}
 
 
 
-      <div className="-mx-4">
+      <div className="-mx-4 mt-12">
         <GallerySlide />
       </div>
 
 
-      <div className="mt-8">
+      <div className="mt-24">
         <GalleryFade />
       </div>
 
-      <Link href="/my-projects" className="my-4 block text-center text-blue-500 hover:text-blue-700">
-        View Project list
-      </Link>
+      <div className="text-center">
+        <Link href="/my-projects" className="view-projects-link mt-8 inline-block border-b-2 border-blue-700 p-2 text-sm text-white">
+          View Project list
+        </Link>
+      </div>
 
 
-      <div>
+      <div className="max-w-275 mx-auto mt-24">
         <Skillset />
       </div>
     </main>
