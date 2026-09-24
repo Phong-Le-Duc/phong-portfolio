@@ -21,8 +21,14 @@ export default function GalleryFade({
     const [phase, setPhase] = useState<"idle" | "out" | "in">("idle");
     const [pressedButton, setPressedButton] = useState<"prev" | "next" | null>(null);
     const [pulseState, setPulseState] = useState<"idle" | "pressed" | "releasing">("idle");
+    const [noteLang, setNoteLang] = useState<"en" | "da">("en");
     const timeoutRef = useRef<number | null>(null);
     const pressTimeoutRef = useRef<number | null>(null);
+
+    const noteText =
+        noteLang === "en"
+            ? "Note: Render takes a minute to spin up and load data, so sites might look broken at first..."
+            : "Bemærk:Render er en sløj banan og jeg er på dagpenge og har virkeligt brug for et job...";
 
     const startTransition = (nextIndex: number) => {
         if (phase !== "idle" || items.length <= 1 || nextIndex === displayIndex) {
@@ -121,7 +127,21 @@ export default function GalleryFade({
     return (
         <section className={styles.gallery} aria-label="Featured project gallery">
             <p className="mt-4 mb-2 font-bold">My projects</p>
-            <p className="my-2 text-xs italic">Note: Render takes a minute to spin up and load data.</p>
+            <p className="ambient-text-secondary my-2 flex items-center gap-2 text-xs italic">
+                {noteText}
+                <button
+                    type="button"
+                    onClick={() => setNoteLang((prev) => (prev === "en" ? "da" : "en"))}
+                    aria-label={
+                        noteLang === "en"
+                            ? "Switch note to Danish"
+                            : "Switch note to English"
+                    }
+                    className="cursor-pointer text-sm leading-none"
+                >
+                    {noteLang === "en" ? "🇩🇰" : "🇬🇧"}
+                </button>
+            </p>
             <div className={styles.viewport}>
                 <div className={cardClass}>
                     <ProjectCard key={currentProject.id} project={currentProject} />

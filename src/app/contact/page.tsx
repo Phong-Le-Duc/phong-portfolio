@@ -5,8 +5,8 @@ export default function ContactPage() {
         <main className="mx-8 py-10">
             <section className="max-w-4xl">
                 <h1 className="text-sm uppercase tracking-[0.3em] text-blue-500">Contact</h1>
-                <h2 className="contact-page-title mt-3 text-2xl  text-white md:text-4xl">Let&apos;s build something great</h2>
-                <p className="mt-4 max-w-3xl text-sm leading-6 text-gray-300 md:text-base">
+                <h2 className="ambient-text-primary mt-3 text-2xl text-white md:text-4xl">Let&apos;s build something great</h2>
+                <p className="ambient-text-secondary mt-4 max-w-3xl text-sm leading-6 md:text-base">
                     I am open to new opportunities, internships, and freelance projects. Feel free to reach out if you want to
                     collaborate on modern, user-focused web experiences.
                 </p>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="theme-surface rounded-2xl border border-gray-700 p-6 shadow-[0_4px_8px_-2px_rgba(59,130,246,0.85),0_14px_18px_-6px_rgba(59,130,246,0.4),0_28px_24px_-10px_rgba(59,130,246,0.25)]">
-                    <h2 className="contact-page-title mt-3 text-2xl  text-white md:text-4xl">Quick contact</h2>
+                    <h2 className="mt-3 text-2xl text-foreground md:text-4xl">Quick contact</h2>
                     <p className="mt-3 text-sm leading-6 text-gray-300 md:text-base">
                         The fastest way to reach me is by email. For quick calls on mobile, use the phone link and your
                         device will open the dialer directly.

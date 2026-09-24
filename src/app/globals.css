@@ -44,12 +44,44 @@
   color: #111827;
 }
 
-:root[data-theme="light"] .view-projects-link {
+.ambient-text-primary {
+  color: #f8fafc;
+}
+
+.ambient-text-secondary {
+  color: #d1d5db;
+}
+
+.ambient-text-muted {
+  color: #94a3b8;
+}
+
+.ambient-link {
+  color: #f8fafc;
+}
+
+.ambient-link:hover {
+  color: #dbeafe;
+}
+
+:root[data-theme="light"] .ambient-text-primary {
   color: #111827;
 }
 
-:root[data-theme="light"] .about-cv-link {
+:root[data-theme="light"] .ambient-text-secondary {
+  color: #374151;
+}
+
+:root[data-theme="light"] .ambient-text-muted {
+  color: #4b5563;
+}
+
+:root[data-theme="light"] .ambient-link {
   color: #111827;
+}
+
+:root[data-theme="light"] .ambient-link:hover {
+  color: #1d4ed8;
 }
 
 :root[data-theme="light"] .header-theme-toggle-wrap {
@@ -121,10 +153,6 @@
 }
 
 :root[data-theme="light"] .mobile-menu-meta-name {
-  color: #111827;
-}
-
-:root[data-theme="light"] .contact-page-title {
   color: #111827;
 }
 

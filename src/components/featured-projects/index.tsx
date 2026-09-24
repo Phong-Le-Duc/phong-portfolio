@@ -21,7 +21,7 @@ export default function FeaturedProjects() {
                     </a>
                 </div>
             </div>
-            <p className="mt-2 text-xs italic">Note: Render may take a few seconds to wake up.</p>
+            <p className="ambient-text-secondary mt-2 text-xs italic">Note: Render may take a few seconds to wake up.</p>
 
             <ProjectsGrid featuredOnly limit={3} />
         </section>

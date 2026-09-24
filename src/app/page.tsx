@@ -24,7 +24,7 @@ export default function Page() {
       </div>
 
       <div className="text-center">
-        <Link href="/my-projects" className="view-projects-link mt-8 inline-block border-b-2 border-blue-700 p-2 text-sm text-white">
+        <Link href="/my-projects" className="view-projects-link ambient-link mt-8 inline-block border-b-2 border-blue-700 p-2 text-sm text-white">
           View Project list
         </Link>
       </div>

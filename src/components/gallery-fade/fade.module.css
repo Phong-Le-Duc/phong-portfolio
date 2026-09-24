@@ -63,11 +63,16 @@
     border: 1px solid rgba(148, 163, 184, 0.6);
     border-radius: 9999px;
     background: rgba(15, 23, 42, 0.16);
-    color: var(--foreground);
     cursor: pointer;
     line-height: 1;
     overflow: hidden;
     isolation: isolate;
+}
+
+.arrowButton svg {
+    position: relative;
+    z-index: 1;
+    color: #e2e8f0;
 }
 
 .arrowButton::after {
@@ -78,6 +83,10 @@
     background: rgba(59, 130, 246, 0.38);
     opacity: 0;
     transform: scale(0.98);
+}
+
+:global(:root[data-theme="light"]) .arrowButton {
+    background: rgba(15, 23, 42, 0.16);
 }
 
 .arrowButtonPressed::after {

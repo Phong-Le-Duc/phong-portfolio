@@ -24,18 +24,6 @@ export type SlideImage = {
 export const projects: Project[] = [
     {
         id: "project-1",
-        title: "Real Estate Website (responsive)",
-        description: "A production-ready real estate web app built for speed, clean UX, and scalable frontend architecture. It delivers a complete property-search journey with dynamic listings, agent profiles, detailed property pages, validated contact forms, and a full authentication system including secure login, protected user-only routes, and favorites for signed-in users.",
-        listTitle: "Real Estate",
-        listDescription: "Real estate app with search, property pages, auth, and favorites.",
-        href: "https://phong-real-estate-website.netlify.app/",
-        githubHref: "https://github.com/Phong-Le-Duc/dinmaegler-Phong-Le-Duc",
-        tags: ["Vite", "React", "TypeScript"],
-        imageSrc: "/images/realEstateImage.png",
-        featured: true,
-    },
-    {
-        id: "project-2",
         title: "Cinema booking app (mobile)",
         description: "Built an end-to-end cinema booking flow with loader-driven data, interactive seat selection, checkout validation, and e-ticket generation.",
         listTitle: "Cinema Booking",
@@ -44,6 +32,18 @@ export const projects: Project[] = [
         githubHref: "https://github.com/Phong-Le-Duc/Phongs-cinema-app",
         tags: ["Next.js", "TypeScript", "Tailwind CSS"],
         imageSrc: "/images/cinemaImage.png",
+        featured: true,
+    },
+    {
+        id: "project-2",
+        title: "Real Estate Website (responsive)",
+        description: "A production-ready real estate web app built for speed, clean UX, and scalable frontend architecture. It delivers a complete property-search journey with dynamic listings, agent profiles, detailed property pages, validated contact forms, and a full authentication system including secure login, protected user-only routes, and favorites for signed-in users.",
+        listTitle: "Real Estate",
+        listDescription: "Real estate app with search, property pages, auth, and favorites.",
+        href: "https://phong-real-estate-website.netlify.app/",
+        githubHref: "https://github.com/Phong-Le-Duc/dinmaegler-Phong-Le-Duc",
+        tags: ["Vite", "React", "TypeScript"],
+        imageSrc: "/images/realEstateImage.png",
         featured: true,
     },
     {

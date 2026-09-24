@@ -26,8 +26,8 @@ export default function AboutAIPage() {
         <main className="mx-8 py-10">
             <section className="max-w-4xl">
                 <h1 className="text-sm uppercase tracking-[0.3em] text-blue-500">About AI</h1>
-                <h2 className="mt-3 text-2xl font-semibold text-foreground md:text-4xl">How I work with AI in this paradigm shift</h2>
-                <p className="mt-4 max-w-3xl text-sm leading-6 text-gray-300 md:text-base">
+                <h2 className="ambient-text-primary mt-3 text-2xl font-semibold md:text-4xl">How I work with AI in this paradigm shift</h2>
+                <p className="ambient-text-secondary mt-4 max-w-3xl text-sm leading-6 md:text-base">
                     We are in a exciting era where developers aren&apos;t just writing every line from scratch—we&apos;re orchestrating intelligent tools, sanity-checking generated output, and making the final call on what is production-ready. I lean into this shift wholeheartedly, but with a healthy dose of practical skepticism: AI gives me speed, but engineering judgment keeps the ship steady.
                 </p>
             </section>

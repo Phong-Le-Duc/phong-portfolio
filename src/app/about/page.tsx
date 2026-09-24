@@ -26,7 +26,7 @@ export default function AboutPage() {
 
             <section className="mt-10 max-w-4xl">
 
-                <div className="max-w-3xl text-sm leading-6 text-gray-300 md:text-base space-y-4">
+                <div className="ambient-text-secondary max-w-3xl space-y-4 text-sm leading-6 md:text-base">
                     <p>
                         Based in Tåstrup, I live with my wife and our two young sons.
                         Family time keeps me grounded, while music production and exploring new technologies spark my curiosity.
@@ -49,7 +49,7 @@ export default function AboutPage() {
                     <summary className="cursor-pointer text-sm font-normal leading-6 text-blue-500 md:text-base">
                         My background & approach
                     </summary>
-                    <div className="mt-3 space-y-4 text-sm leading-6 text-gray-300 md:text-base">
+                    <div className="ambient-text-secondary mt-3 space-y-4 text-sm leading-6 md:text-base">
                         <p>
                             As a trained frontend developer, I thrive at the intersection of design and logic—where user experience directly meets clean code.
                         </p>
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 </details>
 
                 <Link
-                    className="about-cv-link mt-8 inline-block border-b-2 border-blue-700 text-sm text-white"
+                    className="about-cv-link ambient-link mt-8 inline-block border-b-2 border-blue-700 text-sm text-white"
                     href="/images/Phong_LeDuc_CV_2026.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
