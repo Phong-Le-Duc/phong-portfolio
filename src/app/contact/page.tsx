@@ -16,7 +16,7 @@ export default function ContactPage() {
                 <div className="theme-surface rounded-2xl border border-gray-700 p-6 shadow-[0_4px_8px_-2px_rgba(59,130,246,0.85),0_14px_18px_-6px_rgba(59,130,246,0.4),0_28px_24px_-10px_rgba(59,130,246,0.25)]">
                     <div className="relative mx-auto aspect-square w-44 overflow-hidden rounded-2xl">
                         <Image
-                            src="/images/phong.jpeg"
+                            src="/images/phong_2.jpeg"
                             alt="Portrait of Phong Le Duc"
                             fill
                             className="object-cover"
